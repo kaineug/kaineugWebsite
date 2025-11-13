@@ -92,7 +92,6 @@ ul {
   display: flex;
   font-size: 24px;
   padding-top: 40px;
-}
 li {
   color: lightcyan;
   padding: 10px;
@@ -148,7 +147,7 @@ footer {
     display: inline-block;
   }
   .main-nav {
-    display: none; 
+    display: none;
     width: 100%;
   }
   .main-nav ul {
