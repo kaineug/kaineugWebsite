@@ -1,18 +1,22 @@
 @font-face {
   font-family: instrumentSerif;
-  src: url(f/Instrument_Serif/InstrumentSerif-Regular.ttf);
+  src: url("f/Instrument_Serif/InstrumentSerif-Regular.ttf");
 }
 @font-face {
   font-family: nitti;
-  src: url(f/nitti/Nitti-Normal.ttf);
+  src: url("f/nitti/Nitti-Normal.ttf");
 }
 @font-face {
   font-family: iAWriterMono;
-  src: url(f/iAWriterMono/iAWriterMonoS-Regular.woff2);
+  src: url("f/iAWriterMono/iAWriterMonoS-Regular.woff2");
 }
 @font-face {
   font-family: jost;
-  src: url(f/Jost/Jost-VariableFont_wght.ttf);
+  src: url("f/Jost/Jost-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: atkinsonHyper;
+  src: url("f/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf");
 }
 
 .container {
@@ -92,6 +96,8 @@ ul {
   display: flex;
   font-size: 24px;
   padding-top: 40px;
+}
+
 li {
   color: lightcyan;
   padding: 10px;
@@ -114,7 +120,7 @@ h2 {
   font-family: instrumentSerif, sans-serif;
 }
 p {
-  font-family: jost, nitti, instrumentalSerif;
+  font-family: atkinsonHyper, jost, nitti, instrumentSerif;
 }
 a {
   text-decoration: none;
