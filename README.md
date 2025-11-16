@@ -1,15 +1,3 @@
-# home
+# what is this?
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.0. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+my simple personal site. i'm still learning, so it isn't written very well
