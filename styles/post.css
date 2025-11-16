@@ -1,7 +1,21 @@
 h1 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+h1 a {
+    color: gray;
+    font-size: 2.2vw;
 }
 h2 {
     color: #E9C4D7;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+nav ul li a {
+    color: gray;
+    font-size: 1.6vw;
+}
+.startdiv {
+  padding-left: 15%;
+  padding-right: 20%;
+  padding-top: 1%;
 }

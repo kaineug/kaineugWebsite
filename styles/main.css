@@ -18,6 +18,9 @@
   font-family: atkinsonHyper;
   src: url("f/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf");
 }
+@view-transition {
+    navigation: auto;
+}
 
 .container {
   display: grid;
@@ -75,6 +78,46 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+/*.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+}
+@keyframes fadeIn {
+  from {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+  to {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    opacity: 1;
+  }
+}*/
+.move-to-top {
+    animation: moveToTop 0.4s forwards;
+}
+@keyframes moveToTop{
+    from {
+        margin-top: 8%;
+    }
+    to {
+        margin-top: 2%;
+    }
+}
+
+#from {
+    #logo {
+        color: lightblue;
+        font-size: 2rem;
+    }
+}
+#to {
+    color: royalblue;
+}
+
+#logo {
+    view-transition-name: title;
+}
 
 html, body {
   height: 100%;
@@ -95,7 +138,6 @@ ul {
   list-style-type: none;
   display: flex;
   font-size: 24px;
-  padding-top: 40px;
 }
 
 li {
@@ -103,24 +145,24 @@ li {
   padding: 10px;
 }
 nav li a {
-    font-family: instrumentSerif;
+  font-family: instrumentSerif,  sans-serif;
+  font-size: 2vw;
 }
 h1 {
   font-family: instrumentSerif, sans-serif;
   font-size: 3vw;
   color: lightblue;
-  transition: margin-right 0.3s;
 }
 h1 a {
   font-family: instrumentSerif, sans-serif;
-  font-size: 48px;
+  font-size: 3vw;
   color: lightblue;
 }
 h2 {
   font-family: instrumentSerif, sans-serif;
 }
 p {
-  font-family: atkinsonHyper, jost, nitti, instrumentSerif;
+  font-family: atkinsonHyper, jost, nitti, instrumentSerif, sans-serif;
 }
 a {
   text-decoration: none;
@@ -130,6 +172,12 @@ a {
 }
 a:hover {
   background-color: oklch(0.6794 0.0617 243.03 / 25%);
+}
+div a svg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    color: whitesmoke;
 }
 
 footer {
